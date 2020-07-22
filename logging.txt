@@ -1,0 +1,62 @@
+import java.util.Scanner
+org.apache.log4j.*;
+class Prg1{
+	void house() 
+	{
+		
+		static Logger log=Logger.getLogger(prg1.class.getName());
+		char cons="house";
+		Scanner sc=new Scanner  (System.in);
+		log.info("enter material standard\ntotal area");
+		char=sc.NextLine();
+	switch(ch) {
+	case1:standard material
+	 log.info("construction cost is 1200INR");
+	case2:above standard materias
+	log.info(" construction cost is 1500INR");
+	case3:high standard materials 
+	log.info("construction cost is 1800INR");
+	case4:high standard material and fully automated
+		log.info(" construction cost is 2500INR");
+	case5:fully automated home
+	log.info(" material standar and total area of house");
+	defaut:
+		log.fatal("invalid infprmation");
+	}
+	}
+}
+class Prg2
+{
+	void interest() {
+		static Logger log=Logger.getLogger(prg2.class.getName); 
+		double pr,rate,t,sim,com;
+		Scanner sc=new Scanner(System.in);
+		log.info("enetr amount:");
+		pr=sc.NextDouble();
+		log.info("enter no.of years:");
+		t=sc.NextDouble();
+		log.info("enter rateof interest");
+		rate=sc.NextDouble();
+		sim=(pr*t*rate)/100;
+		com=pr*math.pow(1.0+rate/100.0,t)-pr;
+		log.info("simple interest");
+		log.info("compound interest");
+	}
+}
+class Demo
+{
+	public static void main(String[] args)
+	{
+		Prg1 pr=new Prg1();
+		pr.house();
+		Prg2 prg=new Prg2();
+		prg.interest();
+	}
+}
+		
+		
+		
+		
+		
+	}
+}
